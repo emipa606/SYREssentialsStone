@@ -1,56 +1,108 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>[SYR] Essentials: Stone</name>
-    <author>Syrchalis</author>
-    <supportedVersions>
-        <li>1.0</li>
-        <li>1.1</li>
-        <li>1.2</li>
-        <li>1.3</li>
-    </supportedVersions>
-	<url>https://ludeon.com/forums/index.php?topic=43449</url>
-    <description>Changes stats of stones and colors of granite and jade.
-
-Disclaimer: This is not supposed to be realistic, this is supposed to make the stone types more interesting and balanced.
-
-Granite gets a totally new blue-grey color to better differentiate it from Sandstone. Things made of Jade get a much more satisfying green color. Metal and silver tiles get +1 to beauty to make them compete better against the new stones.
-
-Stats:
-General
-- All stone types are a little bit easier to mine
-- All stone types have the same mass and sharp damage now (1 and 0.65)
-- All stone types still have a construction work offset, meaning even the smallest fastest thing made of stone requires at least 1-2 seconds of extra work (vanilla is ~2seconds for all types), but this offset is now specific for each type
-- Cutting stone blocks is faster depending on type (ONLY THE SPECIFIC RECIPES, "CUT ANY" STILL TAKES THE SAME TIME)
-
-Sandstone - very fast, very weak, neutral
-Sandstone is relatively weak and neutral in looks, but still inflammable and better than steel. The main advantage is that it takes three times less time to work with than Granite. It is the best material for traps, since all stone types have the same trap damage.
-
-Granite - very slow, very strong, neutral
-It's the counterpart to Sandstone, takes a lot of time to work with, but is the most durable stone type. Traps made of granite take forever to build. In short: Granite stronk.
-
-Limestone - medium³
-Takes a medium amount of time to work with, is medium strong, has a little beauty and generally Limestone is a decent stone for anything, but for everything there is a better stone type. Versatility comes at a price.
-
-Slate - fast, weak, beautiful
-Slate takes a special place among the stones. It's not really the greatest building material and it has no beauty multiplier, making it a waste to use it on things with inherent beauty, like sculptures. However, it comes with a nice beauty offset, so anything that has no inherent beauty will be great if made off slate, like shelves or certain furniture.
-
-Marble - slow, strong, beautiful
-Marble has only a small beauty offset, but a good multiplier, making anything with inherent beauty great candidates for being made out of Marble. Otherwise it's a relatively solid but slow to work with material.
-
-Beauty Examples:
-Slate shelf (normal): 8 Beauty (8 material offset)
-Slate shelf (good): 16 Beauty (8 material offset * 200% quality multiplier)
-Silver shelf (good): 24 beauty ((0 base beauty * 200% material multiplier + 12 offset) * 200% quality multiplier)
-Large silver sculpture (normal): 212 beauty ((100 base beauty * 200% material multiplier + 12 offset) * 100% quality multiplier) - gets rounded to 210
-Large jade sculpture (good): 616 beauty ((100 base beauty * 300% material multiplier + 8 offset) * 200% quality multiplier) - gets rounded to 615
-</description>
-    <packageId>syrchalis.stonerebalance</packageId>
-    <modDependencies>
+  <name>[SYR] Essentials: Stone (Continued)</name>
+  <packageId>Mlie.SYREssentialsStone</packageId>
+  <author>Syrchalis</author>
+  <url>https://github.com/emipa606/SYREssentialsStone</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
     <li>
-        <packageId>brrainz.harmony</packageId>
-        <displayName>Harmony</displayName>
-        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-        <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
     </li>
-</modDependencies>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Syrchaliss mod https://steamcommunity.com/sharedfiles/filedetails/?id=1544076093
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/SYREssentialsStone][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[h2][b]Rebalances stone types and improves colors of granite and jade.[/b][/h2]
+
+
+[img]https://i.imgur.com/s8csNp7.png[/img]
+
+All stone types get an overhaul to give each a clear purpose, making acquiring specific types worthwhile and choosing your starting tile more interesting. Granite is recolored to not look like sandstone. Jade gets a minor recolor and two new jade floor types are added.
+
+
+
+[img]https://i.imgur.com/eiAAg6q.png[/img]
+
+[h3][b]Details[/b][/h3]
+- All stone types are a little bit easier to mine
+- All stone types have the same mass and sharp damage now
+- Cutting stone blocks is faster depending on type
+
+[h3][b]Sandstone[/b][/h3]
+Incredibly fast to work with, but also the weakest stone type. Upgrading from wood structures with sandstone is a breeze.
+
+[h3][b]Granite[/b][/h3]
+The counterpart to sandstone granite adds a lot of work to construction but also yields the most sturdy structures.
+
+[h3][b]Limestone[/b][/h3]
+The allrounder. Average in every aspect. Sometimes overthinking it isn't the right choice and having a good reliable choice for every situation can be nice.
+
+[h3][b]Slate[/b][/h3]
+A large beauty offset makes slate amazing for simple structures and furniture that doesn't have inherent beauty. It is also a fast material and fragile, making it best suited to protected areas.
+
+[h3][b]Marble[/b][/h3]
+With a significant beauty multiplier marble is better at sculptures and otherwise already beautiful structures. It's relatively strong and needs a lot of work, allowing it to be used in areas more prone to damage.
+
+[img]https://i.imgur.com/eUiTOhv.png[/img]
+
+
+
+[img]https://i.imgur.com/x3y72Eg.png[/img]
+
+[h3][b]Savegames:[/b][/h3]
+[list][*]Adding: Safe (walls might be damaged as max hp changed)
+[*]Removing: Safe
+[/list]
+
+[h3][b]Incompatibilities:[/b][/h3]
+[list][*]None
+[/list]
+
+
+
+[img]https://i.imgur.com/1YxHVGs.png[/img]
+
+[quote][h3][b][url=https://steamcommunity.com/workshop/filedetails/?id=1474000866]Syrchalis' Mods[/url][/b][/h3][/quote]
+Collection of my mods for RimWorld
+
+If you enjoy my mods consider dropping me a dime:
+[url=https://ko-fi.com/A0A0IJ2R][img]https://i.imgur.com/QMURwKz.png[/img][/url][url=https://www.patreon.com/syrchalis][img]https://i.imgur.com/NNM7mbP.png[/img][/url]
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
 </ModMetaData>

@@ -1,14 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModSyncNinjaData>
-  <ID>508b6c12-76f8-4934-b16a-32a39b69ab52</ID>
-  <ModName>[SYR] Stone Rebalance</ModName>
-  <Version>1.2.0</Version>
+  <ID>25cc01f3-da2d-4ae8-984a-fcab7673a91e</ID>
+  <ModName>[SYR] Essentials: Stone (Continued)</ModName>
+  <Version>1.5.1</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
-    <Owner>Syrchalis</Owner>
-    <Project>StoneRebalance</Project>
+    <Owner>emipa606</Owner>
+    <Project>SYREssentialsStone</Project>
     <AboutDir>About</AboutDir>
-    <DownloadFrom>ModSyncReleases</DownloadFrom>
+    <DownloadFrom>ModSyncMainPage</DownloadFrom>
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
+
+
+
+
+

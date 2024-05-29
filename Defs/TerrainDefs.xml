@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <TerrainDef ParentName="FloorBase">
     <defName>BricksJade</defName>
     <label>jade bricks</label>
@@ -24,7 +23,6 @@
     </tags>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </TerrainDef>
-
   <TerrainDef ParentName="FloorBase">
     <defName>TileJade</defName>
     <label>jade tile</label>
@@ -48,5 +46,4 @@
     </tags>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </TerrainDef>
-
 </Defs>
