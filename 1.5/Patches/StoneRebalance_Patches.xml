@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationReplace">
     <xpath>*/TerrainDef[defName = "MetalTile"]/statBases/Beauty</xpath>
@@ -74,6 +74,12 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "SmoothedSandstone"]/statBases/Beauty</xpath>
+    <value>
+      <Beauty>2</Beauty>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>*/TerrainDef[defName = "FlagstoneSandstone"]</xpath>
     <value>
@@ -106,6 +112,12 @@
         <WorkToBuild>1100</WorkToBuild>
         <Beauty>2</Beauty>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "SmoothedGranite"]/statBases/Beauty</xpath>
+    <value>
+      <Beauty>2</Beauty>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
@@ -152,6 +164,12 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "SmoothedLimestone"]/statBases/Beauty</xpath>
+    <value>
+      <Beauty>2</Beauty>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>*/TerrainDef[defName = "FlagstoneLimestone"]</xpath>
     <value>
@@ -194,6 +212,12 @@
         <WorkToBuild>550</WorkToBuild>
         <Beauty>3</Beauty>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "SmoothedSlate"]/statBases/Beauty</xpath>
+    <value>
+      <Beauty>3</Beauty>
     </value>
   </Operation>
   <Operation Class="PatchOperationConditional">
@@ -266,6 +290,12 @@
         <WorkToBuild>700</WorkToBuild>
         <Beauty>3</Beauty>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "SmoothedMarble"]/statBases/Beauty</xpath>
+    <value>
+      <Beauty>3</Beauty>
     </value>
   </Operation>
   <Operation Class="PatchOperationConditional">
