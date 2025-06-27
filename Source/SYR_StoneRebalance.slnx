@@ -1,0 +1,6 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="SYR_StoneRebalance/SYR_StoneRebalance.csproj" />
+</Solution>

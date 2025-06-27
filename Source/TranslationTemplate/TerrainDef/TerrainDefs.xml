@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: jade bricks -->
+  <BricksJade.label>jade bricks</BricksJade.label>
+  <!-- EN: Nice-looking jade bricks. -->
+  <BricksJade.description>Nice-looking jade bricks.</BricksJade.description>
+  <!-- EN: jade tile -->
+  <TileJade.label>jade tile</TileJade.label>
+  <!-- EN: Nice-looking jade tiles. -->
+  <TileJade.description>Nice-looking jade tiles.</TileJade.description>
+</LanguageData>
