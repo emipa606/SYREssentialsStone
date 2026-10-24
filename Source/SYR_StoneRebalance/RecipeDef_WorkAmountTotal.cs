@@ -4,7 +4,7 @@ using Verse;
 namespace SYR_StoneRebalance;
 
 [HarmonyPatch(typeof(RecipeDef), nameof(RecipeDef.WorkAmountTotal))]
-public class RecipeDef_WorkAmountTotal
+public static class RecipeDef_WorkAmountTotal
 {
     public static void Postfix(ref float __result, RecipeDef __instance)
     {
